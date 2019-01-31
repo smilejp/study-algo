@@ -19,27 +19,3 @@ export function getDayOfTheWeek(month, day) {
 
   return DAY_OF_THE_WEEK[totalDays % 7];
 }
-
-// process.stdin.resume();
-// process.stdin.setEncoding('utf8');
-// process.stdin.on('data', function(chunk) {
-//   var splitted = chunk.split(' ');
-//   process.stdout.write(getDayOfTheWeek(splitted[0], splitted[1]));
-// });
-// process.stdin.on('end', function() {
-//   process.stdout.write('end');
-// });
-
-
-
-// var readline = require('readline');
-// var r = readline.createInterface({
-//   input: process.stdin,
-//   output: process.stdout
-// });
-
-// r.question('', function (ans) {
-//   var splitted = ans.split(' ');
-//   console.log(getDayOfTheWeek(splitted[0], splitted[1]));
-//   r.close();
-// });
