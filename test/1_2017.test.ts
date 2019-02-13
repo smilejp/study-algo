@@ -1,4 +1,4 @@
-import { getDayOfTheWeek } from "../src/1_2017";
+import { getDayOfTheWeek } from "../src/2017/1_2017";
 
 describe('2017 problem', () => {
   test('1-1', () => {
